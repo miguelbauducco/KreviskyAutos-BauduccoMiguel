@@ -1,0 +1,19 @@
+.img-nos {
+  border: 6px solid beige;
+  margin: 15px;
+}
+.img-nos:hover {
+  padding: 5px;
+  transform: scale(2, 2);
+  transition: all 2s;
+}
+
+.h1-ind {
+  background-color: #e3f2fd;
+}
+
+body {
+  background-color: #F9EBEA;
+}
+
+/*# sourceMappingURL=style2.css.map */

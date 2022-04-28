@@ -1,19 +1,103 @@
-.img-nos {
+@font-face {
+  font-family: "font1";
+  src: url(fonts/Soulgood.otf);
+}
+@font-face {
+  font-family: "font2";
+  src: url(fonts/kafeine.ttf);
+}
+@font-face {
+  font-family: "font3";
+  src: url(fonts/exmechanica.otf);
+}
+
+header{
+margin: 5px;
+padding: 50px;
+
+}
+body{
+  background-image: url(multimedia.mp4/image/fondo_total.jpg);
+  margin: 5px;
+  padding: 50px;
+}
+
+footer{
+  text-decoration: none;
+  margin: 5px;
+  padding: 50px;
+}
+
+.h1-ind{
+  /*font-family: "font3";*/
+  /*display: flex;*/
+  justify-content: center;
+  margin: 5px;
+  padding: 10px;
+  font-style: italic;
+  font-size: 85px;
+  /*background-color:#e3f2fd;*/
+  border: 5px solid beige;
+}
+.img-head{
+  /*display: flex;*/
+  justify-content: center;
+  
+}
+
+.pindex{
+  /*display: flex;*/
+  justify-content: center;
+  padding: 15px;
+  /*font-family: "font1";*/
+  font-size: 45px;
+}
+
+.car-b{
+  border: solid 10px beige;
+}
+
+.h2-cat{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin:5px;
+  /*font-family: "font1";*/
+  font-size: 50px;
+  font-style: italic;
+}
+
+.tit-nos{
+  padding: 15px;
+  margin:5px;
+  /*font-family: "font1";*/
+  font-size: 50px;
+  font-style: italic;
+}
+
+/*.img-nos{
   border: 6px solid beige;
   margin: 15px;
 }
-.img-nos:hover {
-  padding: 5px;
-  transform: scale(2, 2);
+.img-nos:hover{
+  padding:5px;
+  transform: scale(2,2);
   transition: all 2s;
+}*/
+
+.p-nos{
+  /*font-family: "font1";
+  font-size: 35px;
+  margin: 20px;*/
 }
 
-.h1-ind {
-  background-color: #e3f2fd;
+.items{
+  text-decoration: none;
 }
 
-body {
-  background-color: #F9EBEA;
+.p-cont{
+  /*font-family: "font1";*/
+  font-size: 35px;
+  
 }
-
 /*# sourceMappingURL=style2.css.map */

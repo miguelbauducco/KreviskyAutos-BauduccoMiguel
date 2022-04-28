@@ -1,102 +1,55 @@
-@font-face {
-    font-family: "font1";
-    src: url(fonts/Soulgood.otf);
-}
-@font-face {
-    font-family: "font2";
-    src: url(fonts/kafeine.ttf);
-}
-@font-face {
-    font-family: "font3";
-    src: url(fonts/exmechanica.otf);
+/*Mapa*/
+.text-center {
+  text-align: center;
+  color: black;
+  font-size: 40px;
 }
 
-header{
-margin: 5px;
-padding: 50px;
-
-}
-body{
-    background-image: url(multimedia.mp4/image/fondo_total.jpg);
-    margin: 5px;
-    padding: 50px;
+.pindex {
+  text-align: center;
+  color: black;
+  font-size: 40px;
 }
 
-footer{
-    text-decoration: none;
-    margin: 5px;
-    padding: 50px;
+.row {
+  text-align: center;
+  color: black;
+  font-size: 40px;
 }
 
-.h1-ind{
-    font-family: "font3";
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-    padding: 10px;
-    font-style: italic;
-    font-size: 85px;
-    /*background-color:#e3f2fd;*/
-    border: 5px solid beige;
+.img-nos {
+  border: 6px solid beige;
+  margin: 15px;
 }
-.img-head{
-    display: flex;
-    justify-content: center;
-    
+.img-nos:hover {
+  padding: 5px;
+  transform: scale(2, 2);
+  transition: all 2s;
 }
 
-.pindex{
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    font-family: "font1";
-    font-size: 45px;
+.h1-ind {
+  background-color: #e3f2fd;
 }
 
-.car-b{
-    border: solid 10px beige;
+body {
+  background-color: #F9EBEA;
 }
 
-.h2-cat{
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-    margin:5px;
-    font-family: "font1";
-    font-size: 50px;
-    font-style: italic;
+.container-fluid, .h1-ind {
+  background-color: #e3f2fd;
+  border: 1px, solid, beige;
 }
 
-.tit-nos{
-    padding: 15px;
-    margin:5px;
-    font-family: "font1";
-    font-size: 50px;
-    font-style: italic;
+.h1-ind {
+  display: flex;
 }
 
-/*.img-nos{
-    border: 6px solid beige;
-    margin: 15px;
+.img-head {
+  display: flex;
 }
 
-.img-nos:hover{
-    padding:5px;
-    transform: scale(2,2);
-    transition: all 2s;
-}*/
- 
-.p-nos{
-    font-family: "font1";
-    font-size: 35px;
-    margin: 20px;
+.pindex {
+  display: flex;
 }
 
-.items{
-    text-decoration: none;
-}
-
-.p-cont{
-    font-family: "font1";
-    font-size: 35px;
-}
+/*# sourceMappingURL=style.css.map */

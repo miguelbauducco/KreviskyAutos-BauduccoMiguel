@@ -1,2 +1,29 @@
 $backcolor:#e3f2fd;
 $backg-color: #F9EBEA ;
+
+/*Mapa*/
+
+$estilo: (
+    color:black,
+    centro:center,
+    tfuente: 40px,
+);
+
+.text-center{
+    text-align:map-get($estilo,centro);
+    color: map-get($estilo,color);
+    font-size: map-get($estilo,tfuente);
+}
+
+.pindex{
+    text-align:map-get($estilo,centro);
+    color: map-get($estilo,color);
+    font-size: map-get($estilo,tfuente);
+}
+
+.row{
+    text-align:map-get($estilo,centro);
+    color: map-get($estilo,color);
+    font-size: map-get($estilo,tfuente);
+
+}

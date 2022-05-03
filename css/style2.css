@@ -1,103 +1,83 @@
-@font-face {
-  font-family: "font1";
-  src: url(fonts/Soulgood.otf);
-}
-@font-face {
-  font-family: "font2";
-  src: url(fonts/kafeine.ttf);
-}
-@font-face {
-  font-family: "font3";
-  src: url(fonts/exmechanica.otf);
+
+.text-center {
+  text-align: center;
+  color: black;
+  font-size: 40px;
 }
 
-header{
-margin: 5px;
-padding: 50px;
-
-}
-body{
-  background-image: url(multimedia.mp4/image/fondo_total.jpg);
-  margin: 5px;
-  padding: 50px;
+.pindex {
+  text-align: center;
+  color: black;
+  font-size: 40px;
 }
 
+.row {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+.img-nos {
+  border: 6px solid black;
+  margin: 15px;
+}
+.img-nos:hover {
+  padding: 5px;
+  transform: scale(2, 2);
+  transition: all 2s;
+}
+
+
+body {
+  background-color: white;
+}
+
+.container-fluid, .h1-ind {
+  background-color: #e3f2fd;
+  border: 1px, solid, beige;
+}
+h2{
+  font-style: italic;
+}
+.h1-ind {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin:5px;
+  font-style: italic;
+  font-size: 70px;
+}
+
+.img-head {
+  display: flex;
+  justify-content: center;
+}
+
+.pindex {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+footer ul{
+  list-style-type: none;
+}
+  
 footer{
-  text-decoration: none;
-  margin: 5px;
-  padding: 50px;
+  margin:20px;
+}
+
+.carousel-inner{
+  border: solid 5px black;
 }
 
 .h1-ind{
-  /*font-family: "font3";*/
-  /*display: flex;*/
-  justify-content: center;
-  margin: 5px;
-  padding: 10px;
-  font-style: italic;
-  font-size: 85px;
-  /*background-color:#e3f2fd;*/
-  border: 5px solid beige;
-}
-.img-head{
-  /*display: flex;*/
-  justify-content: center;
-  
+  background-color: #59bfff;
+  border: 5px solid black;
+  text-align: center;
 }
 
-.pindex{
-  /*display: flex;*/
-  justify-content: center;
-  padding: 15px;
-  /*font-family: "font1";*/
-  font-size: 45px;
+.navbar{
+  border: 2px solid black;
 }
 
-.car-b{
-  border: solid 10px beige;
-}
-
-.h2-cat{
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  margin:5px;
-  /*font-family: "font1";*/
-  font-size: 50px;
-  font-style: italic;
-}
-
-.tit-nos{
-  padding: 15px;
-  margin:5px;
-  /*font-family: "font1";*/
-  font-size: 50px;
-  font-style: italic;
-}
-
-/*.img-nos{
-  border: 6px solid beige;
-  margin: 15px;
-}
-.img-nos:hover{
-  padding:5px;
-  transform: scale(2,2);
-  transition: all 2s;
-}*/
-
-.p-nos{
-  /*font-family: "font1";
-  font-size: 35px;
-  margin: 20px;*/
-}
-
-.items{
-  text-decoration: none;
-}
-
-.p-cont{
-  /*font-family: "font1";*/
-  font-size: 35px;
-  
-}
-/*# sourceMappingURL=style2.css.map */
